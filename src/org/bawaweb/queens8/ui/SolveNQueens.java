@@ -18,7 +18,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 public class SolveNQueens extends JFrame {
 
-	private static final int 	DIM = 19; // NUM_QUEENS, change this for resizing
+	private static final int 	DIM = 8; // NUM_QUEENS, change this for resizing
 
 	private boolean[][] 		theGrid;
 	private Cell[][] 			theCells;
