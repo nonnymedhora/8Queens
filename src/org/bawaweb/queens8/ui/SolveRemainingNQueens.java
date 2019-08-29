@@ -131,7 +131,7 @@ public class SolveRemainingNQueens extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		Cell[] placedCells = new Cell[] { new Cell(0, 4, Cell.PLACED), new Cell(5, 5, Cell.PLACED) };
+		Cell[] placedCells = new Cell[] { new Cell(0, 4, Cell.PLACED), new Cell(5, 5, Cell.PLACED), new Cell(2, 3, Cell.PLACED)};
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
