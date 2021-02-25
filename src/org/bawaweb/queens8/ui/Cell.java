@@ -14,9 +14,16 @@ import javax.swing.JComponent;
 
 /**
  * @author Navroz
+ * 
+ *
+ * '\u2658'	-	white+knight
+ * '\u265E'	-	black-knight
+ * '\u2655'	-	white+queen
+ * '\u265B'	-	black-queen
  *
  */
 public class Cell extends JComponent {
+	private static final long serialVersionUID = 765419854L;
 	
 	private int 		row;
 	private int 		column;
